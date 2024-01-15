@@ -1,0 +1,11 @@
+query ListCameras {
+  cameraList (limit: 100) {
+    serialNumber
+    zone {
+      location {
+        id
+        name
+      }
+    }
+  }
+}

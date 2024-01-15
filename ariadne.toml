@@ -1,0 +1,4 @@
+[tool.ariadne-codegen]
+queries_path = "queries"
+remote_schema_url = "https://gql.analytiks.ai/v1/graphql"
+remote_schema_headers = {"Authorization" = "$AUTH_HEADER"}

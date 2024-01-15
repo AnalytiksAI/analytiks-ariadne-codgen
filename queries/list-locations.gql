@@ -1,0 +1,7 @@
+query ListLocations {
+  locationList (limit: 100) {
+    id
+    referenceId
+    name
+  }
+}
